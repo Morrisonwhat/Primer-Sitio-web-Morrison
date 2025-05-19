@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="stylesheet" href="contacto.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="contHeader">
+
+        <a href="index.html" class="marcaHeader">Morrison's Place</a>
+        <ul class="listHeader">
+            <a href="index.html" class="itemLink">
+                <li class="itemHeader">Inicio</li>
+            </a>
+            <a href="contacto.html" class="itemLink">
+                <li class="itemHeader">Contacto</li>
+            </a>
+            <a href="servicios.html" class="itemLink">
+                <li class="itemHeader">Servicios</li>
+            </a>
+        </ul>
+    </header>
+
+    <hr style="opacity: 50%;">
+
+    <form action="#" class="contFormulario">
+        <div>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required class="input" placeholder="Maximiliano ej">
+        </div>
+
+        <div>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required class="input" placeholder="email@gmail.com">
+        </div>
+
+
+        <label for="servicio" class="select">Elegí un servicio:</label>
+        <select id="servicio" name="servicio" required>
+            <option value="">-- Seleccionar --</option>
+            <option value="corte">Corte de cabello</option>
+            <option value="barba">Arreglo de barba</option>
+            <option value="completo">Corte + Barba</option>
+        </select>
+
+        <div class="textLabel">
+            <label>Horario preferido:</label>
+            <input type="radio" id="mañana" name="horario" value="mañana" class="input">
+            <label for="mañana">Mañana</label>
+            <input type="radio" id="tarde" name="horario" value="tarde" class="input">
+            <label for="tarde">Tarde</label>
+            <input type="radio" id="noche" name="horario" value="noche" class="input">
+            <label for="noche">Noche</label>
+        </div>
+
+        <div>
+            <label for="comentarios">Comentarios o pedidos especiales:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="40" placeholder="Escribí aquí..."
+                class="inputText"></textarea>
+        </div>
+
+        <input type="submit" value="Reservar turno" class="button">
+    </form>
+
+    <hr style="opacity: 50%;">
+
+    <footer class="contFooter">
+        <nav><em>Gracias por visitar Morrison's</em></nav>
+
+        <p>Morrison's © 2025 Nombre del Propietario. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

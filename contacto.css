@@ -1,0 +1,102 @@
+body {
+    background-color: #1F2023;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+}
+
+.marcaHeader {
+    color: white;
+    font-size: 3rem;
+    margin: 0 1rem 0 0;
+    text-decoration: none;
+}
+
+.marcaHeader:hover {
+    color: rgb(255, 235, 209);
+}
+
+.itemHeader {
+    color: white;
+    list-style: none;
+    margin: 0 .5rem 0 .5rem;
+    font-size: 1.2rem;
+}
+
+.itemHeader:hover {
+    color: rgb(255, 235, 209);
+}
+
+.listHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.itemLink {
+    text-decoration: none;
+}
+
+/* ------------- */
+
+.contFormulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.input {
+    background-color: transparent;
+    color: white;
+    border: #303337a0 .5px solid;
+    border-radius: 8px;
+    padding: .7rem .5rem;
+    outline: none;
+    resize: vertical;
+    margin: 2rem 0 0 0;
+}
+
+.inputText {
+    background-color: transparent;
+    color: white;
+    border: #303337a0 .5px solid;
+    border-radius: 8px;
+    padding: .7rem .5rem;
+    outline: none;
+    resize: vertical;
+}
+
+.textLabel {
+    margin: 0 0 2rem 0;
+}
+
+.select {
+    margin: 1.3rem 0 0 0;
+}
+
+.button {
+    background-color: #1F2023;
+    color: rgb(245, 217, 181);
+    border-radius: 8px;
+    padding: 1.2rem;
+    border: #303337a0 .5px solid;
+    cursor: pointer;
+    margin: 1rem 0 2rem 0;
+}
+
+.button:hover {
+    border: antiquewhite .5px solid;
+    scale: 1.1;
+}
+
+.contFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

@@ -1,0 +1,67 @@
+body {
+    background-color: #1F2023;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+}
+
+.marcaHeader {
+    color: white;
+    font-size: 3rem;
+    margin: 0 1rem 0 0;
+    text-decoration: none;
+}
+
+.marcaHeader:hover {
+    color: rgb(255, 235, 209);
+}
+
+.itemHeader {
+    color: white;
+    list-style: none;
+    margin: 0 .5rem 0 .5rem;
+    font-size: 1.2rem;
+}
+
+.itemHeader:hover {
+    color: rgb(255, 235, 209);
+}
+
+.listHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.itemLink {
+    text-decoration: none;
+}
+
+/* ----------------- */
+
+.contTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0 0 0;
+}
+
+.colCont {
+    background-color: #1F2023;
+}
+
+.textoServicio {
+    margin: 3rem 0 2rem 0;
+    text-align: center;
+}
+
+.contFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
